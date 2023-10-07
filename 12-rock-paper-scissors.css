@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+.Rock, .Paper, .Scissors{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid white;
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+img{
+  height: 50px
+}
+.reset-score, .auto-play-button{
+  padding: 10px;
+  width: 125px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 1s;
+  border:none;
+}
+.reset-score:hover, .auto-play-button:hover{
+  background-color: black;
+  color: white;
+  border: none;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+}
+.score{
+  margin-top: 60px;
+}
